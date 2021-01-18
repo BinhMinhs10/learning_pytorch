@@ -54,7 +54,8 @@ with torch.no_grad():
 
 preds = model(inputs)
 loss = mse(preds, targets)
-print(loss)
+# .item() return value scalars without tensor
+print(loss.item())
 
 print("="*40)
 # Pytorch built-ins======================
