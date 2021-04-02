@@ -1,6 +1,5 @@
 """Dyna mic Computation Graph and Backpropagation
 
-https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial6/Transformers_and_MHAttention.html#Positional-encoding
 Notes:
     Automatically get gradients/derivatives of functions
     If output have multiple variable that case we talk about gradients
