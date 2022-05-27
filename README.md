@@ -1,4 +1,51 @@
-#
+
+## How to Learn With This Book ⏰
+
+** Study Plan **
+
+The authors wrote this book using the spare time, time required everyday would be between 30 minutes to 2 hours.
+
+This book could also be used as library examples to consult when implementing machine learning projects with Pytorch.
+
+**Click the blue captions to enter the corresponding chapter.**
+
+
+|Date |Contents                                                       | Difficulties   | Est. Time | Update Status|
+|----:|:--------------------------------------------------------------|-----------:|----------:|-----:|
+|&nbsp;|[** DEEP LEARNING WITH PYTORCH **](pytorch_beginner)    |⭐️   |   1hour   |✅    |
+|Day 1 |  [1-1 Tensor Operation](pytorch_beginner/tensor_operation.py)    | ⭐️⭐️⭐️ |   1hour    |✅    |
+|Day 2 |[1-2 Gentle Introduction to torch.autograd](pytorch_beginner/autograd.py)    | ⭐️⭐️⭐️️  |   1hours    |✅    |
+|Day 3 |  [1-3 Example: Modeling Procedure for Texts](pytorch_beginner/neural_networks.py)   | ⭐️⭐️⭐️⭐️⭐️  |   1hours    |✅    |
+
+```python
+
+```
+
+** Software environment for studying **
+
+
+All the source codes are tested in jupyter. It is suggested to clone the repository to local machine and run them in jupyter for an interactive learning experience.
+
+The authors would suggest to install jupytext that converts markdown files into ipynb, so the readers would be able to open markdown files in jupyter directly.
+
+
+```python
+import torch
+
+#Note: all the codes are tested under TensorFlow 2.1
+tf.print("tensorflow version:", tf.__version__)
+
+```
+
+```
+tensorflow version: 2.1.0
+hello tensorflow2
+```
+
+## Contact and support the author 🎈🎈
+
+
+** If you find this book helpful and want to support the author, please give a star ⭐️ to this repository and don't forget to share it to your friends 😊 **
 
 ## Pytorch tutorial [source](pytorch_beginner)
 ## 🤗 Course [source](nlp)
