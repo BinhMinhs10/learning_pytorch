@@ -1,5 +1,5 @@
 #
 
-## Pytorch tutorial [source](core_pytorch)
+## Pytorch tutorial [source](pytorch_beginner)
 ## 🤗 Course [source](nlp)
 
