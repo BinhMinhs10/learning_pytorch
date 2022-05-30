@@ -12,11 +12,11 @@ This book could also be used as library examples to consult when implementing ma
 
 |Date |Contents                                                       | Difficulties   | Est. Time | Update Status|
 |----:|:--------------------------------------------------------------|-----------:|----------:|-----:|
-|&nbsp;|[** DEEP LEARNING WITH PYTORCH **](pytorch_beginner)    |⭐️   |   1hour   |✅    |
+|&nbsp;|[** DEEP LEARNING WITH PYTORCH **](pytorch_beginner)    |⭐️   |   1hour   |    |
 |Day 1 |  [1-1 Tensor Operation](pytorch_beginner/tensor_operation.py)    | ⭐️⭐️⭐️ |   1hour    |✅    |
 |Day 2 |[1-2 Gentle Introduction to torch.autograd](pytorch_beginner/autograd.py)    | ⭐️⭐️⭐️️  |   1hours    |✅    |
 |Day 3 |  [1-3 Neural Networks](pytorch_beginner/neural_networks.py)   | ⭐️️⭐️⭐️  |   1hours    |✅    |
-|&nbsp;|[** DEEP LEARNING COURSE 2020 AT THE UNIVERSITY OF AMSTERDAM **](uvadl_course)    |⭐️⭐️⭐️️   |   1hour   |✅    |
+|&nbsp;|[** DEEP LEARNING COURSE 2022 AT THE UNIVERSITY OF AMSTERDAM **](uvadl_course)    |️⭐️️   |   1hour   |    |
 |Day 1 |  [1-1 Tensor Operation](uvadl_course/tensor_operation.py)    | ⭐️⭐️⭐️ |   1hour    |✅    |
 
 
