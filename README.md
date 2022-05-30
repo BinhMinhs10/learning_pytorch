@@ -15,7 +15,7 @@ This book could also be used as library examples to consult when implementing ma
 |&nbsp;|[** DEEP LEARNING WITH PYTORCH **](pytorch_beginner)    |⭐️   |   1hour   |✅    |
 |Day 1 |  [1-1 Tensor Operation](pytorch_beginner/tensor_operation.py)    | ⭐️⭐️⭐️ |   1hour    |✅    |
 |Day 2 |[1-2 Gentle Introduction to torch.autograd](pytorch_beginner/autograd.py)    | ⭐️⭐️⭐️️  |   1hours    |✅    |
-|Day 3 |  [1-3 Example: Modeling Procedure for Texts](pytorch_beginner/neural_networks.py)   | ⭐️⭐️⭐️⭐️⭐️  |   1hours    |✅    |
+|Day 3 |  [1-3 Neural Networks](pytorch_beginner/neural_networks.py)   | ⭐️⭐️⭐️⭐️⭐️  |   1hours    |✅    |
 
 ```python
 
@@ -31,15 +31,12 @@ The authors would suggest to install jupytext that converts markdown files into 
 
 ```python
 import torch
-
-#Note: all the codes are tested under TensorFlow 2.1
-tf.print("tensorflow version:", tf.__version__)
+print(torch.__version__)
 
 ```
 
 ```
-tensorflow version: 2.1.0
-hello tensorflow2
+torch version: 1.7.1
 ```
 
 ## Contact and support the author 🎈🎈
@@ -47,6 +44,5 @@ hello tensorflow2
 
 ** If you find this book helpful and want to support the author, please give a star ⭐️ to this repository and don't forget to share it to your friends 😊 **
 
-## Pytorch tutorial [source](pytorch_beginner)
-## 🤗 Course [source](nlp)
+
 
