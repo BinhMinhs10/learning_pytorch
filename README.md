@@ -16,9 +16,10 @@ This book could also be used as library examples to consult when implementing ma
 |Day 1 |  [1-1 Tensor Operation](pytorch_beginner/tensor_operation.py)    | ⭐️⭐️ |   1hour    |✅    |
 |Day 2 |[1-2 Gentle Introduction to torch.autograd](pytorch_beginner/autograd.py)    | ⭐️⭐️️  |   1hours    |✅    |
 |Day 3 |[1-3 Advanced Autograd](pytorch_beginner/advanced_autograd.py)    | ⭐️⭐️⭐️️  |   1hours    |✅    |
-|Day 4 |  [1-4 Neural Networks](pytorch_beginner/neural_networks.py)   | ⭐️️⭐️⭐️  |   1hours    |✅    |
-|&nbsp;|[** DEEP LEARNING COURSE 2022 AT THE UNIVERSITY OF AMSTERDAM **](uvadl_course)    |️⭐️️   |   1hour   |    |
-|Day 1 |  [1-1 Tensor Operation](uvadl_course/tensor_operation.py)    | ⭐️⭐️ |   1hour    |✅    |
+|Day 4 |  [1-4 Neural Networks](pytorch_beginner/neural_networks.py)   | ⭐⭐️  |   1hours    |✅    |
+|Day 5 |  [1-5 Common layer types](pytorch_beginner/common_layer_types.py)   | ⭐️️⭐️⭐️  |   1hours    |✅    |
+|&nbsp;|[** DEEP LEARNING COURSE 2022 AT THE UNIVERSITY OF AMSTERDAM **](uvadl_course)    |️⭐️️   |   1hours   |    |
+|Day 1 |  [1-1 Tensor Operation](uvadl_course/tensor_operation.py)    | ⭐️⭐️ |   1hours    |✅    |
 
 
 ```python
