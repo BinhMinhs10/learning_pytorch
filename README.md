@@ -12,7 +12,7 @@ This book could also be used as library examples to consult when implementing ma
 
 |Date |Contents                                                       | Difficulties   | Est. Time | Update Status|
 |----:|:--------------------------------------------------------------|-----------:|----------:|-----:|
-|&nbsp;|[** DEEP LEARNING WITH PYTORCH **](pytorch_beginner)    | ⭐️ |   1hour   |    |
+|&nbsp;|[** DEEP LEARNING WITH PYTORCH **](pytorch_beginner)    | ⭐️ |   1hour   |  &nbsp;  |
 |Day 1 |  [1-1 Tensor Operation](pytorch_beginner/tensor_operation.py)    | ⭐️⭐️ |   1hour    |✅    |
 |Day 2 |  [1-2 Gentle Introduction to torch.autograd](pytorch_beginner/autograd.py)    | ⭐️⭐️️  |   1hours    |✅    |
 |Day 3 |  [1-3 Advanced Autograd](pytorch_beginner/advanced_autograd.py)    | ⭐️⭐️⭐️️ |   1hours    |✅    |
