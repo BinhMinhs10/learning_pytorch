@@ -42,7 +42,10 @@ print(f"tensor.mul(tensor) {x_ones.mul(points)} \n- tensor * tensor: {x_ones * p
 # Matrix Multiplication
 print(f"tensor.matmul(tensor.T): {x_ones.matmul(x_ones.T)} \n- tensor @ tensor.T: {x_ones @ x_ones.T}")
 
-# In-place operations '_' suffix are in-place x.copy_() will change x
+
+# ====================================
+#  In-place operations '_' suffix are in-place x.copy_() will change x
+# ====================================
 x_ones.add_(5)
 print(x_ones)
 

@@ -69,8 +69,8 @@ for f in net.parameters():
 
 # ======== Various different update rule SGD, Nesterov-SGD, Adam, RMSProp,...
 optimizer = optim.SGD(net.parameters(), lr=0.01)
-optimizer.zero_grad()  # because gradient accumulated
 output = net(input)
 loss = criterion(output, target)
+optimizer.zero_grad()  # because gradient accumulated
 loss.backward()
-optimizer.step()
+optimizer.step()  # Adjust param by gradients collected in backward pass
