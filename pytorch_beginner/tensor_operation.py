@@ -22,7 +22,7 @@ points = torch.tensor(
 
 # Slicing
 print(points[1:, 0])  # all row after the first, first column
-print(points[None])  # add dim of size 1, like unsqueeze : [points]
+print("Unsqueeze points: ", points[None])  # add dim of size 1, like unsqueeze : [points]
 
 # Init tensor retains properties (shape, datatype)
 x_ones = torch.ones_like(points)
@@ -30,16 +30,24 @@ x_rand = torch.rand_like(points, dtype=torch.float)
 print(f"Random Tensor: {x_rand} \n")
 
 x_ones[:, 1] = 0
-print(x_ones)
+# print(x_ones)
 
 # Joining tensors
 t1 = torch.cat([x_ones, x_ones], dim=1)
-print(t1)
+print("Joining tensors: ", t1)
 
+# ====================================
+#       Element-wise: trên các phần tử tương ứng giữa các tensor
+# ====================================
 # Multiplying computes element-wise product ******
-print(f"tensor.mul(tensor) {x_ones.mul(points)} \n- tensor * tensor: {x_ones * points} \n")
+print(f"tensor.add(tensor) {x_ones.add(points)} \t- tensor * tensor: {x_ones + points} \n")
+print(f"tensor.sub(tensor) {x_ones.sub(points)} \t- tensor * tensor: {x_ones - points} \n")
+print(f"tensor.mul(tensor) {x_ones.mul(points)} \t- tensor * tensor: {x_ones * points} \n")
 
+
+# ====================================
 # Matrix Multiplication
+# ====================================
 print(f"tensor.matmul(tensor.T): {x_ones.matmul(x_ones.T)} \n- tensor @ tensor.T: {x_ones @ x_ones.T}")
 
 

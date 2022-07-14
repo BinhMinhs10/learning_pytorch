@@ -1,11 +1,9 @@
 
-## How to Learn With This Book ⏰
+## How to Learn With This Tutorial 🎓
 
 ** Study Plan **
 
-The authors wrote this book using the spare time, time required everyday would be between 30 minutes to 2 hours.
-
-This book could also be used as library examples to consult when implementing machine learning projects with Pytorch.
+The authors wrote this book using the spare time.
 
 **Click the blue captions to enter the corresponding chapter.**
 
