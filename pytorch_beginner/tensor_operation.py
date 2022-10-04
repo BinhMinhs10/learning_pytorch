@@ -10,8 +10,10 @@ print(a[1], " - ", float(a[1]))  # tensor(1.) - 1.0
 
 # Numpy array to tensor
 n = np.ones(5)
-t = torch.from_numpy(n)
+torch_tensor = torch.from_numpy(n)
 
+# Tensor to numpy array 
+np_arr = torch_tensor.cpu().detach().numpy()
 
 """ Pass list of list to constructor"""
 points = torch.tensor(
